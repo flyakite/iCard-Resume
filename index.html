@@ -3,41 +3,41 @@ layout: default
 ---
 <div class="container-fluid">
     <div class="row-fluid">
-        <div class="col-md-8">
-            {% if site.author.workHistory %}
-                <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>Work History</h3>
+        <div class="col-md-6">
+            {% if site.author.experiences %}
+                <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>Experiences</h3>
                 <ul class="timeline">
-                    {% for work in site.author.workHistory %}
+                    {% for experience in site.author.experiences %}
                         <li class="timeline-inverted">
-                            {% if work.started %}
-                                <div class="timeline-badge info">{{ work.started }}</div>
+                            {% if experience.started %}
+                                <div class="timeline-badge info">{{ experience.started }}</div>
                             {% endif %}
                             <div class="timeline-panel grid-block">
                                 <div class="timeline-heading">
-                                    {% if work.company %}
-                                        <h4 class="timeline-title">{{ work.company }} </h4>
+                                    {% if experience.company %}
+                                        <h4 class="timeline-title">{{ experience.company }} </h4>
                                     {% endif %}
                                     <p>
                                         <small class="text-muted">
-                                            {% if work.title %}
-                                                {{ work.title }}
+                                            {% if experience.title %}
+                                                {{ experience.title }}
                                             {% endif %}
                                         </small>
                                     </p>
                                     <p>
                                         <small class="text-muted">
-                                            {% if work.duration %}
-                                                <i class="fa fa-calendar"></i> {{ work.duration }} |
+                                            {% if experience.duration %}
+                                                <i class="fa fa-calendar"></i> {{ experience.duration }} |
                                             {% endif %}
-                                            {% if work.location %}
-                                                <i class="fa fa-map-marker"></i>  {{ work.location }}
+                                            {% if experience.location %}
+                                                <i class="fa fa-map-marker"></i>  {{ experience.location }}
                                             {% endif %}
                                         </small>
                                     </p>
                                 </div>
                                 <div class="timeline-body">
-                                    {% if work.description %}
-                                        <p>{{ work.description }}</p>
+                                    {% if experience.description %}
+                                        <p>{{ experience.description }}</p>
                                     {% endif %}
                                 </div>
                             </div>
@@ -45,10 +45,10 @@ layout: default
                     {% endfor %}
                 </ul>
             {% endif %}
-            {% if site.author.educationHistory %}
-                <h3 class="title with-icon"><span class="fa fa-book cat-title"></span>Education History</h3>
+            {% if site.author.educations %}
+                <h3 class="title with-icon"><span class="fa fa-book cat-title"></span>Education</h3>
                 <ul class="timeline">
-                    {% for education in site.author.educationHistory %}
+                    {% for education in site.author.educations %}
                         <li class="timeline-inverted">
                             {% if education.started %}
                                 <div class="timeline-badge info">{{ education.started }}</div>
@@ -86,7 +86,96 @@ layout: default
                 </ul>
             {% endif %}
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
+            {% if site.author.projects %}
+                <h3 class="title with-icon"><span class="fa fa-flask cat-title"></span>Projects</h3>
+                <ul class="timeline">
+                    {% for project in site.author.projects %}
+                        <li class="timeline-inverted">
+                            {% if project.started %}
+                                <div class="timeline-badge info">{{ project.started }}</div>
+                            {% endif %}
+                            <div class="timeline-panel grid-block">
+                                <div class="timeline-heading">
+                                    {% if project.name %}
+                                        <h4 class="timeline-title">{{ project.name }}</h4>
+                                    {% endif %}
+                                    {% if project.link %}
+                                    <p>
+                                        <small class="text-muted"><i class="fa fa-external-link"></i>
+                                            <a href="{{ project.link }}" target="_blank">{{ project.link }}</a>
+                                        </small>
+                                    </p>
+                                    {% endif %}
+                                    {% if project.duration %}
+                                        <p>
+                                            <small class="text-muted"><i class="fa fa-calendar"></i> {{ project.duration }}
+                                            </small>
+                                        </p>
+                                    {% endif %}
+                                </div>
+                                <div class="timeline-body">
+                                    {% if project.description %}
+                                        <p>{{ project.description }}</p>
+                                    {% endif %}
+                                    {% if project.img_src %}
+                                    <p>
+                                        <img src="{{ project.img_src }}" alt="project image">
+                                    </p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            {% if site.author.awards %}
+                <h3 class="title with-icon"><span class="fa fa-trophy cat-title"></span>Honors & Awards</h3>
+                <ul class="timeline">
+                    {% for award in site.author.awards %}
+                        <li class="timeline-inverted">
+                            {% if award.started %}
+                                <div class="timeline-badge info">{{ award.started }}</div>
+                            {% endif %}
+                            <div class="timeline-panel grid-block">
+                                <div class="timeline-heading">
+                                    {% if award.name %}
+                                        <h4 class="timeline-title">{{ award.name }}</h4>
+                                    {% endif %}
+                                    {% if award.link %}
+                                    <p>
+                                        <small class="text-muted"><i class="fa fa-external-link"></i>
+                                            <a href="{{ award.link }}" target="_blank">{{ award.link }}</a>
+                                        </small>
+                                    </p>
+                                    {% endif %}
+                                    <p>
+                                        <small class="text-muted">
+                                            {% if award.date %}
+                                            <i class="fa fa-calendar"></i> {{ award.date }}
+                                            {% endif %}
+                                            {% if award.location %}
+                                            <i class="fa fa-map-marker"></i>  
+                                            {{ award.location }}
+                                            {% endif %}
+                                        </small>
+                                    </p>
+                                </div>
+                                <div class="timeline-body">
+                                    {% if award.description %}
+                                        <p>{{ award.description }}</p>
+                                    {% endif %}
+                                    {% if award.img_src %}
+                                    <p>
+                                        <img src="{{ award.img_src }}" alt="project image">
+                                    </p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
             {% if site.author.programmingSkills %}
                 <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Programming Skills</h3>
                 <div class="grid-block">
@@ -125,11 +214,13 @@ layout: default
                     </ul>
                 </div>
             {% endif %}
-            <div class="deviter"></div>
-            <h3 class="title with-icon"><span class="fa fa-location-arrow cat-title"></span> Location</h3>
-            <div class="grid-block">
-                <iframe src="https://www.google.com/maps/embed/v1/place?q=auckland&key=AIzaSyClEWLh20lxrQBFR7omuuVESviszPxONyk" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
-            </div>
+            {% if site.author.location %}
+                <div class="deviter"></div>
+                <h3 class="title with-icon"><span class="fa fa-location-arrow cat-title"></span> Location</h3>
+                <div class="grid-block">
+                    <iframe src="{{ site.author.location }}" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+                </div>
+            {% endif %}
         </div>
     </div>
 </div>

@@ -1,9 +1,9 @@
 # Site settings
-title: ddbullfrog's blog
-description: ddbullfrog's blog
+title: Shih-Wen Su
+description: Shih-Wen Su
 favicon: /assets/img/avatar.JPG
 baseurl:
-url: http://ddbullfrog.com
+url: http://flyakite.github.io/iCard-Resume
 rss_url: /pages/atom.xml
 
 # Build settings
@@ -11,69 +11,158 @@ markdown: kramdown
 
 # Author settings
 author:
-  name: Dong Liang
-  title: Java Developer
-  address: Auckland, New Zealand
-  email: dongg.liang@gmail.com
-  link: http://ddbullfrog.com
+  name: Shih-Wen Su
+  title: Python & JavaScript Developer
+  address: Taipei, Taiwan
+  email: sushi@summeridea.com
+  link: http://flyakite.github.io/iCard-Resume
+  #location: https://www.google.com/maps/embed/v1/place?q=auckland&key=AIzaSyClEWLh20lxrQBFR7omuuVESviszPxONyk
   weibo:
-  github: ddbullfrog
-  linkedin: ddbullfrog
-  twitter: ddbullfrog
+  github: flyakite
+  linkedin: flyakite
+  twitter: sushiwen
   gavatar: /assets/img/avatar.JPG
-  workHistory:
-    - work1:
-      company: Finzsoft Solutions Ltd
-      location: Auckland, New Zealand
-      title: Java Developer
+  experiences:
+    - experience:
+      company: zenblip
+      link: https://www.zenblip.com
+      location: Tokyo, Japan
+      title: CTO & Co-founder
       started: 2014
-      duration: (2014 - Present)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-    - work2:
-      company: Agfa HealthCare
-      location: Shanghai, China
-      title: Java Developer
+      duration: (Aug. 2014 - Present)
+      description: We are a startup to build Gmail and Outlook plugins, including email­ tracking, reminders and email template providing actionable statistics for recruiters in APAC, mainly Japan, Hong Kong and Australia, to gain insights and find talents easier and faster. 
+    - experience:
+      company: Organizaing Committee of PyCon Japan
+      location: Tokyo, Japan
+      title: Member Staff of Sponsor Team.
+      started: 2014
+      duration: Aug. 2014 - Oct. 2014
+    - experience:
+      company: Capy
+      link: https://www.capy.me
+      location: Tokyo, Japan
+      title: Principle Engineer
+      started: 2013
+      duration: (Jul. 2013 - Jul. 2014)
+      description: Designed and built auto-scalable, fault-tolerant, image-based CAPTCHA system, and grew the infrastructure to serve millions of users from Japanese giants, e.g., SoftBank, Recruit. Reduced CAPTCHA authentication mechanism from typically 3 client-server requests, e.g., Google reCAPTCHA, to 2 requests. Improved dynamic image request performance by 40% in Django.
+    - experience:
+      company: NeedClickers.com
+      location: Taipei, Taiwan
+      title: Founder/Developer
+      started: 2010
+      duration: (Jun. 2010 - Jul. 2013)
+      description: Developed online real-time action and point exchange platform utilized by 39,000 gamers. Constructed website localization with Spanish, French and German translations provided by enthusiastic users.
+    - experience:
+      company: TrendMicro
+      location: Taipei, Taiwan
+      title: Research & Development Engineer
+      started: 2008
+      duration: (Jul. 2008 - May. 2010)
+      description: Collaborated with team members and developed centralized continuous integration system for the company.
+    - experience:
+      company: Air Force
+      location: Taiwan
+      title: Second Lieutenant
+      started: 2007
+      duration: (Jul. 2007 - Jun. 2008)
+      description: Collaberated with team members and developed centralized continuous integration system for the company.
+  
+  projects:
+    - project:
+      name: Google App Engine Starter
+      started: 2015
+      duration:
+      link: https://github.com/flyakite/gae-starter
+      description: A Python cookiecutter template for Google App Engine, integrated webapp2, Jinja2, NDB, WTForms, unittest, webtest, NoseGAE, Fabric, SimpleAuth, Bower, Gulp, HTML5Boilerplate, SASS, LiveReload, jQuery, Twitter Bootstrap. Easy to start your GAE project by answering interactive questions.
+    - project:
+      name: deps.js
+      started: 2015
+      duration: 
+      link: https://github.com/flyakite/deps.js
+      description: Designed to load content scripts and dependencies of a Chrome extension efficiently to web page JavaScript environment.
+    - project:
+      name: fonten
+      started: 2013
+      duration: 
+      link: https://fonten-demo.appspot.com
+      description: A real-time server to provide only the needed charaters of a font file, especially for large Chinese, Japanese, Korean font files, that highly improved the load time the font, including a deployable Python server and a jQuery plugin.
+    - project:
+      name: TasteBias.com
       started: 2012
-      duration: (2012 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-    - work3:
-      company: Citigroup Services and Technology (China) Limited
-      location: Shanghai, China
-      title: Java Developer
-      started: 2009
-      duration: (2009 - 2012)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-  educationHistory:
-    - education1:
-      organization: Northeastern University
+      duration: 
+      link: 
+      description: A movie recommendation system combining facebook friends' reviews and item-based collaborative filtering for over 50,000 selected movies. The website is a single page application in Backbone.js in the front end, along with Python Tornado, MongoDB and ElasticSearch in the backend.
+    - project:
+      name: ZecZec.com
+      started: 2012
+      duration: 
+      link: 
+      description: Collaborated with a talented team from Taipei and London to build the first crowdfunding platform for Taiwan.
+    - project:
+      name: SummerIdea.com
+      started: 2011
+      duration: 
+      link: 
+      description: Customizable online store and tools can be installed in Facebook fan page for local businesses.
+
+  awards:
+    - award:
+      name: PITCH TO THE PRESIDENT! FINEST startup event in Tokyo!, 1st Prize for Capy
+      started: 2014
+      date: Mar. 2014
+      location: Tokyo, Japan
+      img_src: 
+    - award:
+      name: Infinity Ventures Summit Fall 2013, 1st Prize for Capy
+      started: 2013
+      date: Dec. 2013
+      location: Kyoto, Japan
+      img_src: 
+    - award:
+      name: Startup Weekend Competition, 1st Prize for HitCaptcha
+      started: 2011
+      date: Nov. 2011
+      location: HsinChu, Taiwan
+      img_src: 
+    - award:
+      name: All in One PC Interactive Application Competition Excellence Award from National Industrial Development Bureau of Taiwan
+      started: 2010
+      date: May 2010
+      location: Taipei, Taiwan
+      img_src: 
+
+
+  educations:
+    - education:
+      organization: National Tsing Hua University, Taiwan
       degree: Bachelor
-      major: Software Engineering
-      started: 2005
-      duration: (2005 - 2009)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-  languages:
-    - language1:
-      name: Chinese
-      proficiency: Native
-    - language2:
-      name: English
-      proficiency: Professional
-    - language3:
-      name: Japanese
-      proficiency: Limit
-  programmingSkills:
-    - skill1:
-      name: HTML
-      percentage: 100%
-    - skill2:
-      name: Bootstrap
-      percentage: 90%
-    - skill3:
-      name: JavaScript
-      percentage: 80%
-    - skill4:
-      name: AngularJS
-      percentage: 80%
-    - skill5:
-      name: Java/Java EE
-      percentage: 90%
+      major: Computer Science
+      started: 2003
+      duration: (2003 - 2007)
+      description:
+  # languages:
+  #   - language1:
+  #     name: Chinese
+  #     proficiency: Native
+  #   - language2:
+  #     name: English
+  #     proficiency: Professional
+  #   - language3:
+  #     name: Japanese
+  #     proficiency: Limit
+  # programmingSkills:
+  #   - skill1:
+  #     name: HTML
+  #     percentage: 100%
+  #   - skill2:
+  #     name: Bootstrap
+  #     percentage: 90%
+  #   - skill3:
+  #     name: JavaScript
+  #     percentage: 80%
+  #   - skill4:
+  #     name: AngularJS
+  #     percentage: 80%
+  #   - skill5:
+  #     name: Java/Java EE
+  #     percentage: 90%
