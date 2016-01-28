@@ -24,13 +24,21 @@ author:
   gavatar: /assets/img/avatar.JPG
   experiences:
     - experience:
+      company: Maipichi
+      link: http://www.maipichi.com
+      location: Tokyo, Japan
+      title: Developer
+      started: 2015
+      duration: (Aug. 2015 - Present)
+      description: Video recruiting platform.
+    - experience:
       company: zenblip
       link: https://www.zenblip.com
       location: Tokyo, Japan
       title: CTO & Co-founder
       started: 2014
-      duration: (Aug. 2014 - Present)
-      description: We are a startup to build Gmail and Outlook plugins, including email­ tracking, reminders and email template providing actionable statistics for recruiters in APAC, mainly Japan, Hong Kong and Australia, to gain insights and find talents easier and faster. 
+      duration: (Aug. 2014 - Aug. 2015)
+      description: We are a startup to build Gmail and Outlook plugins, including email­ tracking, reminders and email template providing actionable statistics for recruiters in APAC, mainly Japan, Hong Kong and Australia, to gain insights and find talents easier and faster.
     - experience:
       company: Organizaing Committee of PyCon Japan
       location: Tokyo, Japan
@@ -106,6 +114,12 @@ author:
       description: Customizable online store and tools can be installed in Facebook fan page for local businesses.
 
   awards:
+    - award:
+      name: Taiwan & Thailand Open Data Hackathon, 2nd Prize for GotYou, Police Patrol Dynamic Optimization
+      started: 2015
+      date: Oct. 2015
+      location: Taipei, Taiwan
+      img_src:
     - award:
       name: PITCH TO THE PRESIDENT! FINEST startup event in Tokyo!, 1st Prize for Capy
       started: 2014
