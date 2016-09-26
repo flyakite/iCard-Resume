@@ -15,6 +15,7 @@ This is the web page on desktop browser.
 - [Fork this repository](https://github.com/ddbullfrog/iCard-Resume/fork)
 - Clone it: `git clone https://github.com/YOUR-USER/ddbullfrog.github.io`
 - Run the jekyll server: `jekyll serve`
+- Dev run the jekyll server: `jekyll serve --watch`
 
 You should have a server up and running locally at <http://localhost:4000>.
 

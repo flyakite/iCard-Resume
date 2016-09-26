@@ -1,7 +1,7 @@
 # Site settings
 title: Shih-Wen Su
 description: Shih-Wen Su
-favicon: /assets/img/avatar.JPG
+favicon: /assets/img/sushi.png
 baseurl:
 url: http://flyakite.github.io/iCard-Resume
 rss_url: /pages/atom.xml
@@ -21,16 +21,16 @@ author:
   github: flyakite
   linkedin: flyakite
   twitter: sushiwen
-  gavatar: /assets/img/avatar.JPG
+  gavatar: /assets/img/sushi.png
   experiences:
     - experience:
       company: Maipichi
       link: http://www.maipichi.com
       location: Tokyo, Japan
-      title: Developer
+      title: Engineering Director
       started: 2015
       duration: (Aug. 2015 - Present)
-      description: Video recruiting platform.
+      description: Online audition platform.
     - experience:
       company: zenblip
       link: https://www.zenblip.com
@@ -55,6 +55,7 @@ author:
       description: Designed and built auto-scalable, fault-tolerant, image-based CAPTCHA system, and grew the infrastructure to serve millions of users from Japanese giants, e.g., SoftBank, Recruit. Reduced CAPTCHA authentication mechanism from typically 3 client-server requests, e.g., Google reCAPTCHA, to 2 requests. Improved dynamic image request performance by 40% in Django.
     - experience:
       company: NeedClickers.com
+      link: http://www.needclickers.com
       location: Taipei, Taiwan
       title: Founder/Developer
       started: 2010
@@ -76,6 +77,18 @@ author:
       description: Collaberated with team members and developed centralized continuous integration system for the company.
   
   projects:
+    - project:
+      name: I Got Mine in KC
+      started: 2016
+      duration:
+      link: http://igotmineinkc.org
+      description: Free Condoms, Events, STD prevention, treatment in Kansas City. A startup project in Code for KC.
+    - project:
+      name: Kansas City Property Violation
+      started: 2016
+      duration:
+      link: https://github.com/flyakite/kansas-city-property-violation/blob/master/Kansas%20City%20Code%20Violation%20Research.ipynb
+      description: Assumptions, open data analysis and answers for Kansas City property violation issue.
     - project:
       name: Google App Engine Starter
       started: 2015
