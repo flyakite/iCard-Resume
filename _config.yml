@@ -128,35 +128,41 @@ author:
 
   awards:
     - award:
-      name: Taiwan & Thailand Open Data Hackathon, 2nd Prize for GotYou, Police Patrol Dynamic Optimization
+      name: Global Hack VI, 4th place for JOYN, Homeless Management Information System platform enables real time collaboration between CoC organizations and their clients.
+      started: 2016
+      date: Oct. 2016
+      location: St. Lious, U.S.A.
+      img_src: /assets/img/Joyn.jpg
+    - award:
+      name: Taiwan & Thailand International Open Data Hackathon, Best Hackers Award for GotYou, Police Patrol Dynamic Routing Optimization System
       started: 2015
       date: Oct. 2015
       location: Taipei, Taiwan
-      img_src:
+      img_src: /assets/img/open-data.jpg
     - award:
       name: PITCH TO THE PRESIDENT! FINEST startup event in Tokyo!, 1st Prize for Capy
       started: 2014
       date: Mar. 2014
       location: Tokyo, Japan
-      img_src: 
+      img_src: /assets/img/pitch-to-the-president.jpg
     - award:
       name: Infinity Ventures Summit Fall 2013, 1st Prize for Capy
       started: 2013
       date: Dec. 2013
       location: Kyoto, Japan
-      img_src: 
+      img_src: /assets/img/ivs.jpg
     - award:
       name: Startup Weekend Competition, 1st Prize for HitCaptcha
       started: 2011
       date: Nov. 2011
       location: HsinChu, Taiwan
-      img_src: 
+      img_src: /assets/img/hitcaptcha.jpg
     - award:
       name: All in One PC Interactive Application Competition Excellence Award from National Industrial Development Bureau of Taiwan
       started: 2010
       date: May 2010
       location: Taipei, Taiwan
-      img_src: 
+      img_src: /assets/img/all-in-one.jpg
 
 
   educations:

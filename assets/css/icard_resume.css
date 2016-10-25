@@ -270,6 +270,10 @@ hr {
     margin-top: 5px;
 }
 
+.timeline-body img{
+    width: 100%;
+}
+
 /* Tech Stack*/
 .tech-stack {
     color: #fff;
