@@ -30,7 +30,7 @@ author:
       title: Engineering Director
       started: 2015
       duration: (Aug. 2015 - Present)
-      description: Online audition platform.
+      description: Online audition platform for fashion companies.
     - experience:
       company: zenblip
       link: https://www.zenblip.com
@@ -87,7 +87,7 @@ author:
       name: Kansas City Property Violation
       started: 2016
       duration:
-      link: https://github.com/flyakite/kansas-city-property-violation/blob/master/Kansas%20City%20Code%20Violation%20Research.ipynb
+      link: https://goo.gl/EkQNRX
       description: Assumptions, open data analysis and answers for Kansas City property violation issue.
     - project:
       name: Google App Engine Starter
