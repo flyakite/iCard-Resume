@@ -12,7 +12,7 @@ markdown: kramdown
 # Author settings
 author:
   name: Shih-Wen Su
-  title: Python & JavaScript Developer
+  title: Machine Learning, Python & JavaScript Developer
   address: Taipei, Taiwan
   email: sushi@summeridea.com
   link: http://flyakite.github.io/iCard-Resume
@@ -30,15 +30,14 @@ author:
       title: Engineering Director
       started: 2015
       duration: (Aug. 2015 - Present)
-      description: Online audition platform for fashion companies.
+      description: Job search, video recruit, and online audition platform.
     - experience:
       company: zenblip
-      link: https://www.zenblip.com
       location: Tokyo, Japan
       title: CTO & Co-founder
       started: 2014
       duration: (Aug. 2014 - Aug. 2015)
-      description: We are a startup to build Gmail and Outlook plugins, including email­ tracking, reminders and email template providing actionable statistics for recruiters in APAC, mainly Japan, Hong Kong and Australia, to gain insights and find talents easier and faster.
+      description: We provide Gmail and Outlook plugins for email­ tracking, reminders and email templates that provides actionable statistics for recruiters in Japan, Hong Kong and Australia, to gain insights and find talents easier and faster.
     - experience:
       company: Organizaing Committee of PyCon Japan
       location: Tokyo, Japan
@@ -55,7 +54,6 @@ author:
       description: Designed and built auto-scalable, fault-tolerant, image-based CAPTCHA system, and grew the infrastructure to serve millions of users from Japanese giants, e.g., SoftBank, Recruit. Reduced CAPTCHA authentication mechanism from typically 3 client-server requests, e.g., Google reCAPTCHA, to 2 requests. Improved dynamic image request performance by 40% in Django.
     - experience:
       company: NeedClickers.com
-      link: http://www.needclickers.com
       location: Taipei, Taiwan
       title: Founder/Developer
       started: 2010
